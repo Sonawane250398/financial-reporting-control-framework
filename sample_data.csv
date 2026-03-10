@@ -1,0 +1,21 @@
+control_id,control_name,domain,report_name,validation_type,expected_value,actual_value,tolerance,status,last_run_date,run_by
+CTL-001,Row Count Check,Revenue,Monthly Revenue Report,ROW_COUNT,1500,1500,0,PASS,2024-01-31,yash.sonawane
+CTL-002,Revenue Null Check,Revenue,Monthly Revenue Report,NULL_CHECK,0,0,0,PASS,2024-01-31,yash.sonawane
+CTL-003,Revenue Total Match,Revenue,Monthly Revenue Report,AGGREGATE_MATCH,4825000.00,4825000.00,0.01,PASS,2024-01-31,yash.sonawane
+CTL-004,Row Count Check,P&L,P&L Summary Report,ROW_COUNT,320,318,0,FAIL,2024-01-31,yash.sonawane
+CTL-005,P&L Null Check,P&L,P&L Summary Report,NULL_CHECK,0,4,0,FAIL,2024-01-31,yash.sonawane
+CTL-006,P&L Total Match,P&L,P&L Summary Report,AGGREGATE_MATCH,1200000.00,1200000.00,0.01,PASS,2024-01-31,yash.sonawane
+CTL-007,Row Count Check,Inventory,Inventory Movement Report,ROW_COUNT,800,800,0,PASS,2024-01-31,yash.sonawane
+CTL-008,Inventory Null Check,Inventory,Inventory Movement Report,NULL_CHECK,0,0,0,PASS,2024-01-31,yash.sonawane
+CTL-009,Inventory Value Match,Inventory,Inventory Movement Report,AGGREGATE_MATCH,950000.00,948500.00,500,PASS,2024-01-31,yash.sonawane
+CTL-010,Row Count Check,Expenses,Expense Report,ROW_COUNT,210,210,0,PASS,2024-01-31,yash.sonawane
+CTL-011,Expense Null Check,Expenses,Expense Report,NULL_CHECK,0,2,0,FAIL,2024-01-31,yash.sonawane
+CTL-012,Expense Total Match,Expenses,Expense Report,AGGREGATE_MATCH,320000.00,320000.00,0.01,PASS,2024-01-31,yash.sonawane
+CTL-013,Row Count Check,Payroll,Payroll Summary,ROW_COUNT,95,95,0,PASS,2024-01-31,yash.sonawane
+CTL-014,Payroll Null Check,Payroll,Payroll Summary,NULL_CHECK,0,0,0,PASS,2024-01-31,yash.sonawane
+CTL-015,Payroll Total Match,Payroll,Payroll Summary,AGGREGATE_MATCH,680000.00,680000.00,0.01,PASS,2024-01-31,yash.sonawane
+CTL-016,Row Count Check,Compliance,Compliance Audit Log,ROW_COUNT,450,450,0,PASS,2024-01-31,yash.sonawane
+CTL-017,Compliance Null Check,Compliance,Compliance Audit Log,NULL_CHECK,0,0,0,PASS,2024-01-31,yash.sonawane
+CTL-018,Duplicate Check,Revenue,Monthly Revenue Report,DUPLICATE_CHECK,0,0,0,PASS,2024-01-31,yash.sonawane
+CTL-019,Duplicate Check,P&L,P&L Summary Report,DUPLICATE_CHECK,0,3,0,FAIL,2024-01-31,yash.sonawane
+CTL-020,Referential Integrity,Inventory,Inventory Movement Report,REF_INTEGRITY,0,0,0,PASS,2024-01-31,yash.sonawane
