@@ -79,6 +79,7 @@ financial-reporting-control-framework
 │
 ├── validation.sql      ← SQL validation framework
 ├── sample_data.csv     ← Example dataset for control execution
+├── tableau_dashboard.md ← Dashboard design specification
 └── README.md
 ```
 
@@ -105,5 +106,5 @@ Business Systems Analyst — Financial Data & Reporting
 LinkedIn
 https://linkedin.com/in/yash-sonawane25
 
-Portfolio
-https://portfolio-delta-silk-82.vercel.app
+Portfolio 
+https://yashsonawane.vercel.app
